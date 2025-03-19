@@ -1,0 +1,136 @@
+body,html{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #222222;
+    color: white;
+    font-family: roboto, arial;
+  }
+  h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 50vh;
+  }
+  h2{
+    font-size: 30px;
+    margin-top: 0;
+    color: #F8988B;
+  }
+  h3{
+    font-size: 35px
+  }
+  h4{
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .welcome{
+    text-align: center;
+    border: solid transparent;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  .nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: #F8988B;
+    position: fixed;
+  }
+  .projects{
+    background-color: #71988A;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .project-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .top-left{
+    object-position: top left;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .project-title{
+    background-color: #455F55;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+  }
+  .links{
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .project-table{
+    margin: auto;
+    border-spacing: 30px;
+  }
+  .git{
+    height: 40px;
+    width: 100px;
+    border-radius: 0;
+    border: none;
+    background-color: #455F55;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .contact{
+    text-align: center;
+    padding-top: 30vh;
+  }
+  .contact-container{
+    height: 85vh;
+  }
+  .logo{
+    height: 25px;
+  }
+  .logo-title{
+    font-size: 30px;
+    display: inline-block;
+  }
+  .larger{
+    transition: transform 0.3s;
+  }
+  .larger:hover{
+    transform: scale(1.2);
+  }
+  .text{
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    width: 400px;
+    float: right;
+  }
+  li{
+    display: block;
+    height: 55px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  li:hover{
+    background-color: #71988A;
+  }
+  @media (max-width:400px){
+    #navbar{
+      display: none;
+    }
+  }
